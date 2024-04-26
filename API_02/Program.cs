@@ -1,8 +1,11 @@
 using API_02;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Host.UseSerilog();
+Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo.File(@"Logger\API").CreateLogger();
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -26,6 +29,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
 

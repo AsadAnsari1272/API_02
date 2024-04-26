@@ -16,14 +16,16 @@ namespace API_02.Controllers
         #region Dependency
         private readonly ApplicationDbContext _context;
         private readonly ApiResponce _apiResponce;
+        private readonly ILogger<StudentsController> _logger;
 
         #endregion
 
         #region Constructor
-        public StudentsController(ApplicationDbContext context)
+        public StudentsController(ApplicationDbContext context, ILogger<StudentsController> logger)
         {
             _context = context;
             _apiResponce = new ApiResponce();
+            _logger = logger;
         }
         #endregion
 
@@ -56,6 +58,7 @@ namespace API_02.Controllers
                 _apiResponce.HttpStatus = HttpStatusCode.BadRequest;
                 _apiResponce.IsSuccess = false;
 
+                _logger.LogWarning("Get All student data has been executed successfully");
                 return _apiResponce;
             }
         }
@@ -96,7 +99,9 @@ namespace API_02.Controllers
                 _apiResponce.HttpStatus = HttpStatusCode.OK;
                 _apiResponce.IsSuccess = true;
 
-                return _apiResponce;
+				_logger.LogWarning("Get By Id student data has been executed successfully");
+
+				return _apiResponce;
                 
             }
             catch (Exception exception)
@@ -143,7 +148,9 @@ namespace API_02.Controllers
 
                 _apiResponce.Result = dtoStudent;
                 _apiResponce.HttpStatus = HttpStatusCode.Created;
-                return _apiResponce;
+
+				_logger.LogWarning("New Student Data has been added successfully");
+				return _apiResponce;
             }
             catch (Exception excption)
             {
@@ -199,7 +206,9 @@ namespace API_02.Controllers
                 _apiResponce.Result = Updated;
                 _apiResponce.HttpStatus = HttpStatusCode.NoContent;
                 _apiResponce.IsSuccess = true;
-                return _apiResponce;
+
+				_logger.LogWarning("Student data has been Updated successfully");
+				return _apiResponce;
             }
             catch (Exception exception)
             {
@@ -268,7 +277,9 @@ namespace API_02.Controllers
 
                 _apiResponce.Result = PartiallyUpdated;
                 _apiResponce.HttpStatus = HttpStatusCode.NoContent;
-                return _apiResponce;
+
+				_logger.LogWarning("Partial Updated successfully");
+				return _apiResponce;
 
             }
             catch (Exception exception)
@@ -311,7 +322,8 @@ namespace API_02.Controllers
                _apiResponce.IsSuccess=false;
                 _apiResponce.HttpStatus = HttpStatusCode.NotFound;
 
-                return _apiResponce;
+				_logger.LogWarning("Student data deleted successfully");
+				return _apiResponce;
             }
         }
         #endregion

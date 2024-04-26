@@ -1,0 +1,956 @@
+2024-04-15 21:03:49.736 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-15 21:03:49.985 +05:30 [DBG] Hosting starting
+2024-04-15 21:03:50.641 +05:30 [DBG] Connection id "0HN2TC5PJQVK5" accepted.
+2024-04-15 21:03:50.643 +05:30 [DBG] Connection id "0HN2TC5PJQVK5" started.
+2024-04-15 21:03:50.655 +05:30 [DBG] Connection id "0HN2TC5PJQVK5" received FIN.
+2024-04-15 21:03:50.658 +05:30 [INF] Now listening on: https://localhost:7112
+2024-04-15 21:03:50.658 +05:30 [INF] Now listening on: http://localhost:5216
+2024-04-15 21:03:50.659 +05:30 [DBG] Loaded hosting startup assembly API_02
+2024-04-15 21:03:50.659 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-15 21:03:50.659 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-15 21:03:50.659 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-15 21:03:50.728 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-15 21:03:51.254 +05:30 [DBG] Connection id "0HN2TC5PJQVK6" accepted.
+2024-04-15 21:03:51.280 +05:30 [DBG] Connection id "0HN2TC5PJQVK6" started.
+2024-04-15 21:03:51.280 +05:30 [DBG] Connection id "0HN2TC5PJQVK7" accepted.
+2024-04-15 21:03:51.280 +05:30 [DBG] Connection id "0HN2TC5PJQVK7" started.
+2024-04-15 21:03:51.287 +05:30 [DBG] Connection id "0HN2TC5PJQVK5" stopped.
+2024-04-15 21:03:51.357 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-15 21:03:51.358 +05:30 [INF] Hosting environment: Development
+2024-04-15 21:03:51.358 +05:30 [INF] Content root path: C:\Users\Asad Ansari\source\repos\API_02\API_02
+2024-04-15 21:03:51.358 +05:30 [DBG] Hosting started
+2024-04-15 21:03:51.358 +05:30 [DBG] Connection id "0HN2TC5PJQVK5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:03:51.552 +05:30 [DBG] Connection id "0HN2TC5PJQVK7" received FIN.
+2024-04-15 21:03:51.580 +05:30 [DBG] Connection 0HN2TC5PJQVK7 established using the following protocol: "Tls12"
+2024-04-15 21:03:51.580 +05:30 [DBG] Connection 0HN2TC5PJQVK6 established using the following protocol: "Tls12"
+2024-04-15 21:03:51.623 +05:30 [DBG] Connection id "0HN2TC5PJQVK7" is closed. The last processed stream ID was 0.
+2024-04-15 21:03:51.624 +05:30 [DBG] Connection id "0HN2TC5PJQVK7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:03:51.633 +05:30 [DBG] The connection queue processing loop for 0HN2TC5PJQVK7 completed.
+2024-04-15 21:03:51.642 +05:30 [DBG] Connection id "0HN2TC5PJQVK7" stopped.
+2024-04-15 21:03:51.716 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - null null
+2024-04-15 21:03:52.066 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-15 21:03:52.117 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-15 21:03:52.118 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:03:52.343 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-15 21:03:52.346 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-15 21:03:52.418 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-15 21:03:52.420 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-15 21:03:52.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 null text/html;charset=utf-8 720.5132ms
+2024-04-15 21:03:52.503 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-15 21:03:52.543 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - null null
+2024-04-15 21:03:52.544 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 41.0066ms
+2024-04-15 21:03:52.658 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 null text/javascript; charset=UTF-8 115.6135ms
+2024-04-15 21:03:52.998 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - null null
+2024-04-15 21:03:52.999 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-15 21:03:52.999 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:03:53.563 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 564.4271ms
+2024-04-15 21:04:03.351 +05:30 [DBG] Connection id "0HN2TC5PJQVK6" received FIN.
+2024-04-15 21:04:03.352 +05:30 [DBG] Connection id "0HN2TC5PJQVK6" is closed. The last processed stream ID was 7.
+2024-04-15 21:04:03.352 +05:30 [DBG] Connection id "0HN2TC5PJQVK6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:04:03.352 +05:30 [DBG] The connection queue processing loop for 0HN2TC5PJQVK6 completed.
+2024-04-15 21:04:03.353 +05:30 [DBG] Connection id "0HN2TC5PJQVK6" stopped.
+2024-04-15 21:04:53.265 +05:30 [DBG] Connection id "0HN2TC5PJQVK8" accepted.
+2024-04-15 21:04:53.273 +05:30 [DBG] Connection id "0HN2TC5PJQVK8" started.
+2024-04-15 21:04:53.292 +05:30 [DBG] Connection 0HN2TC5PJQVK8 established using the following protocol: "Tls12"
+2024-04-15 21:04:53.295 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/api/Students - null null
+2024-04-15 21:04:53.319 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2024-04-15 21:04:53.326 +05:30 [DBG] Endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2024-04-15 21:04:53.328 +05:30 [DBG] Request matched endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:04:53.338 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-15 21:04:53.344 +05:30 [INF] Executing endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:04:53.437 +05:30 [INF] Route matched with {action = "GetAllStudent", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[API_02.Models.API.ApiResponce] GetAllStudent() on controller API_02.Controllers.StudentsController (API_02).
+2024-04-15 21:04:53.441 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-15 21:04:53.441 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-15 21:04:53.441 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-15 21:04:53.442 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-15 21:04:53.442 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-15 21:04:53.448 +05:30 [DBG] Executing controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:04:53.880 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-15 21:04:53.931 +05:30 [DBG] Executed controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:04:55.738 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-15 21:04:55.751 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-15 21:04:55.757 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-15 21:04:55.761 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-15 21:04:55.761 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-15 21:04:55.762 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-15 21:04:55.764 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-15 21:04:55.765 +05:30 [INF] Executing ObjectResult, writing value of type 'API_02.Models.API.ApiResponce'.
+2024-04-15 21:04:56.467 +05:30 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .Select(s => new DtoStudent{ 
+        Id = s.Id, 
+        Name = s.Name, 
+        Division = s.Division, 
+        Standard = s.Standard 
+    }
+    )'
+2024-04-15 21:04:57.104 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<DtoStudent>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            Id -> 0
+            Name -> 1
+            Division -> 2
+            Standard -> 3
+        SELECT s.Id, s.Name, s.Division, s.Standard
+        FROM Students AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, DtoStudent>, 
+    API_02.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-15 21:04:57.201 +05:30 [DBG] Creating DbConnection.
+2024-04-15 21:04:57.273 +05:30 [DBG] Created DbConnection. (66ms).
+2024-04-15 21:04:57.280 +05:30 [DBG] Opening connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:04:58.409 +05:30 [DBG] Opened connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:04:58.412 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-15 21:04:58.421 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (7ms).
+2024-04-15 21:04:58.425 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2024-04-15 21:04:58.466 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:04:58.644 +05:30 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:04:58.705 +05:30 [DBG] Closing data reader to 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:04:58.724 +05:30 [DBG] A data reader for 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' is being disposed after spending 64ms reading results.
+2024-04-15 21:04:58.729 +05:30 [DBG] Closing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:04:58.744 +05:30 [DBG] Closed connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' (14ms).
+2024-04-15 21:04:58.769 +05:30 [INF] Executed action API_02.Controllers.StudentsController.GetAllStudent (API_02) in 5318.6304ms
+2024-04-15 21:04:58.770 +05:30 [INF] Executed endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:04:58.787 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-04-15 21:04:58.796 +05:30 [DBG] Disposing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:04:58.806 +05:30 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-04-15 21:04:58.808 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/api/Students - 200 374 application/json; charset=utf-8 5512.4566ms
+2024-04-15 21:05:03.453 +05:30 [DBG] Connection id "0HN2TC5PJQVK8" received FIN.
+2024-04-15 21:05:03.453 +05:30 [DBG] Connection id "0HN2TC5PJQVK8" is closed. The last processed stream ID was 1.
+2024-04-15 21:05:03.454 +05:30 [DBG] Connection id "0HN2TC5PJQVK8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:05:03.454 +05:30 [DBG] The connection queue processing loop for 0HN2TC5PJQVK8 completed.
+2024-04-15 21:05:03.455 +05:30 [DBG] Connection id "0HN2TC5PJQVK8" stopped.
+2024-04-15 21:06:49.849 +05:30 [DBG] Connection id "0HN2TC5PJQVK9" accepted.
+2024-04-15 21:06:49.850 +05:30 [DBG] Connection id "0HN2TC5PJQVK9" started.
+2024-04-15 21:06:49.863 +05:30 [DBG] Connection 0HN2TC5PJQVK9 established using the following protocol: "Tls12"
+2024-04-15 21:06:49.882 +05:30 [INF] Request starting HTTP/2 PATCH https://localhost:7112/api/Students/6 - application/json-patch+json 80
+2024-04-15 21:06:49.883 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Students/6'
+2024-04-15 21:06:49.884 +05:30 [DBG] Endpoint 'API_02.Controllers.StudentsController.PartialUpdate (API_02)' with route pattern 'api/Students/{id:int}' is valid for the request path '/api/Students/6'
+2024-04-15 21:06:49.884 +05:30 [DBG] Request matched endpoint 'API_02.Controllers.StudentsController.PartialUpdate (API_02)'
+2024-04-15 21:06:49.884 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-15 21:06:49.884 +05:30 [INF] Executing endpoint 'API_02.Controllers.StudentsController.PartialUpdate (API_02)'
+2024-04-15 21:06:49.906 +05:30 [INF] Route matched with {action = "PartialUpdate", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[API_02.Models.API.ApiResponce] PartialUpdate(Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[API_02.Models.DTO.DtoStudent]) on controller API_02.Controllers.StudentsController (API_02).
+2024-04-15 21:06:49.906 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-15 21:06:49.906 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-15 21:06:49.906 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-15 21:06:49.906 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-15 21:06:49.907 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-15 21:06:49.907 +05:30 [DBG] Executing controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:06:49.908 +05:30 [DBG] Executed controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:06:49.920 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-15 21:06:49.923 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-15 21:06:49.926 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-15 21:06:49.926 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-15 21:06:49.927 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-15 21:06:49.931 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-15 21:06:49.933 +05:30 [DBG] Attempting to bind parameter 'jsonPatch' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[API_02.Models.DTO.DtoStudent]' ...
+2024-04-15 21:06:49.935 +05:30 [DBG] Attempting to bind parameter 'jsonPatch' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[API_02.Models.DTO.DtoStudent]' using the name '' in request data ...
+2024-04-15 21:06:49.937 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-04-15 21:06:49.953 +05:30 [DBG] Connection id "0HN2TC5PJQVK9", Request id "0HN2TC5PJQVK9:00000001": started reading request body.
+2024-04-15 21:06:49.953 +05:30 [DBG] Connection id "0HN2TC5PJQVK9", Request id "0HN2TC5PJQVK9:00000001": done reading request body.
+2024-04-15 21:06:50.104 +05:30 [DBG] Done attempting to bind parameter 'jsonPatch' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[API_02.Models.DTO.DtoStudent]'.
+2024-04-15 21:06:50.104 +05:30 [DBG] Done attempting to bind parameter 'jsonPatch' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[API_02.Models.DTO.DtoStudent]'.
+2024-04-15 21:06:50.104 +05:30 [DBG] Attempting to validate the bound parameter 'jsonPatch' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[API_02.Models.DTO.DtoStudent]' ...
+2024-04-15 21:06:50.119 +05:30 [DBG] Done attempting to validate the bound parameter 'jsonPatch' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[API_02.Models.DTO.DtoStudent]'.
+2024-04-15 21:06:50.168 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-15 21:06:50.200 +05:30 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .AsNoTracking()
+    .SingleOrDefault(e => e.Id == __id_0)'
+2024-04-15 21:06:50.365 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Student>(
+    asyncEnumerable: new SingleQueryingEnumerable<Student>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Student.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Student.Division (char) Required, 1], [Property: Student.IsActive (bool) Required, 2], [Property: Student.Name (string) Required, 3], [Property: Student.Standard (string) Required, 4] }
+            SELECT TOP(2) s.Id, s.Division, s.IsActive, s.Name, s.Standard
+            FROM Students AS s
+            WHERE s.Id == @__id_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Student>, 
+        API_02.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-04-15 21:06:50.414 +05:30 [DBG] Creating DbConnection.
+2024-04-15 21:06:50.416 +05:30 [DBG] Created DbConnection. (1ms).
+2024-04-15 21:06:50.420 +05:30 [DBG] Opening connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:06:50.427 +05:30 [DBG] Opened connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:06:50.428 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-15 21:06:50.428 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-04-15 21:06:50.434 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2024-04-15 21:06:50.443 +05:30 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [s].[Id], [s].[Division], [s].[IsActive], [s].[Name], [s].[Standard]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__id_0
+2024-04-15 21:06:50.558 +05:30 [INF] Executed DbCommand (122ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [s].[Id], [s].[Division], [s].[IsActive], [s].[Name], [s].[Standard]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__id_0
+2024-04-15 21:06:50.585 +05:30 [DBG] Closing data reader to 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:06:50.586 +05:30 [DBG] A data reader for 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' is being disposed after spending 27ms reading results.
+2024-04-15 21:06:50.590 +05:30 [DBG] Closing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:06:50.591 +05:30 [DBG] Closed connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' (1ms).
+2024-04-15 21:06:50.811 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-15 21:06:50.819 +05:30 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2024-04-15 21:06:50.826 +05:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2024-04-15 21:06:50.845 +05:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2024-04-15 21:06:51.019 +05:30 [DBG] Opening connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:06:51.020 +05:30 [DBG] Opened connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:06:51.023 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-15 21:06:51.024 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-04-15 21:06:51.031 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-04-15 21:06:51.032 +05:30 [DBG] Executing DbCommand [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 1), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Students] SET [Division] = @p0, [IsActive] = @p1, [Name] = @p2, [Standard] = @p3
+OUTPUT 1
+WHERE [Id] = @p4;
+2024-04-15 21:06:51.097 +05:30 [INF] Executed DbCommand (65ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 1), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Students] SET [Division] = @p0, [IsActive] = @p1, [Name] = @p2, [Standard] = @p3
+OUTPUT 1
+WHERE [Id] = @p4;
+2024-04-15 21:06:51.104 +05:30 [DBG] Closing data reader to 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:06:51.104 +05:30 [DBG] A data reader for 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' is being disposed after spending 6ms reading results.
+2024-04-15 21:06:51.105 +05:30 [DBG] Closing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:06:51.105 +05:30 [DBG] Closed connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' (0ms).
+2024-04-15 21:06:51.123 +05:30 [DBG] An entity of type 'Student' tracked by 'ApplicationDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-15 21:06:51.125 +05:30 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2024-04-15 21:06:51.132 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-15 21:06:51.133 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-15 21:06:51.133 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-15 21:06:51.133 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-15 21:06:51.133 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-15 21:06:51.133 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-15 21:06:51.133 +05:30 [INF] Executing ObjectResult, writing value of type 'API_02.Models.API.ApiResponce'.
+2024-04-15 21:06:51.135 +05:30 [INF] Executed action API_02.Controllers.StudentsController.PartialUpdate (API_02) in 1228.1276ms
+2024-04-15 21:06:51.136 +05:30 [INF] Executed endpoint 'API_02.Controllers.StudentsController.PartialUpdate (API_02)'
+2024-04-15 21:06:51.137 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-04-15 21:06:51.137 +05:30 [DBG] Disposing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:06:51.137 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-04-15 21:06:51.138 +05:30 [INF] Request finished HTTP/2 PATCH https://localhost:7112/api/Students/6 - 200 128 application/json; charset=utf-8 1255.5035ms
+2024-04-15 21:06:53.595 +05:30 [DBG] Connection id "0HN2TC5PJQVK9" received FIN.
+2024-04-15 21:06:53.595 +05:30 [DBG] Connection id "0HN2TC5PJQVK9" is closed. The last processed stream ID was 1.
+2024-04-15 21:06:53.595 +05:30 [DBG] Connection id "0HN2TC5PJQVK9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:06:53.595 +05:30 [DBG] The connection queue processing loop for 0HN2TC5PJQVK9 completed.
+2024-04-15 21:06:53.596 +05:30 [DBG] Connection id "0HN2TC5PJQVK9" stopped.
+2024-04-15 21:07:08.575 +05:30 [DBG] Connection id "0HN2TC5PJQVKA" accepted.
+2024-04-15 21:07:08.576 +05:30 [DBG] Connection id "0HN2TC5PJQVKA" started.
+2024-04-15 21:07:08.586 +05:30 [DBG] Connection 0HN2TC5PJQVKA established using the following protocol: "Tls12"
+2024-04-15 21:07:08.594 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/api/Students - null null
+2024-04-15 21:07:08.594 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2024-04-15 21:07:08.594 +05:30 [DBG] Endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2024-04-15 21:07:08.595 +05:30 [DBG] Request matched endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:07:08.595 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-15 21:07:08.595 +05:30 [INF] Executing endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:07:08.595 +05:30 [INF] Route matched with {action = "GetAllStudent", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[API_02.Models.API.ApiResponce] GetAllStudent() on controller API_02.Controllers.StudentsController (API_02).
+2024-04-15 21:07:08.596 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-15 21:07:08.596 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-15 21:07:08.596 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-15 21:07:08.596 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-15 21:07:08.597 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-15 21:07:08.597 +05:30 [DBG] Executing controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:07:08.603 +05:30 [DBG] Executed controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:07:08.742 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-15 21:07:08.743 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-15 21:07:08.743 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-15 21:07:08.743 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-15 21:07:08.743 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-15 21:07:08.743 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-15 21:07:08.743 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-15 21:07:08.743 +05:30 [INF] Executing ObjectResult, writing value of type 'API_02.Models.API.ApiResponce'.
+2024-04-15 21:07:08.759 +05:30 [DBG] Creating DbConnection.
+2024-04-15 21:07:08.760 +05:30 [DBG] Created DbConnection. (0ms).
+2024-04-15 21:07:08.760 +05:30 [DBG] Opening connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:07:08.760 +05:30 [DBG] Opened connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:07:08.760 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-15 21:07:08.760 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-04-15 21:07:08.760 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-04-15 21:07:08.761 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:07:08.771 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:07:08.772 +05:30 [DBG] Closing data reader to 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:07:08.772 +05:30 [DBG] A data reader for 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' is being disposed after spending 0ms reading results.
+2024-04-15 21:07:08.772 +05:30 [DBG] Closing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:07:08.772 +05:30 [DBG] Closed connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' (0ms).
+2024-04-15 21:07:08.772 +05:30 [INF] Executed action API_02.Controllers.StudentsController.GetAllStudent (API_02) in 175.7827ms
+2024-04-15 21:07:08.772 +05:30 [INF] Executed endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:07:08.773 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-04-15 21:07:08.773 +05:30 [DBG] Disposing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:07:08.773 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-04-15 21:07:08.773 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/api/Students - 200 381 application/json; charset=utf-8 181.0278ms
+2024-04-15 21:07:13.631 +05:30 [DBG] Connection id "0HN2TC5PJQVKA" received FIN.
+2024-04-15 21:07:13.631 +05:30 [DBG] Connection id "0HN2TC5PJQVKA" is closed. The last processed stream ID was 1.
+2024-04-15 21:07:13.631 +05:30 [DBG] Connection id "0HN2TC5PJQVKA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:07:13.631 +05:30 [DBG] The connection queue processing loop for 0HN2TC5PJQVKA completed.
+2024-04-15 21:07:13.631 +05:30 [DBG] Connection id "0HN2TC5PJQVKA" stopped.
+2024-04-15 21:15:53.425 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-15 21:15:53.622 +05:30 [DBG] Hosting starting
+2024-04-15 21:15:54.115 +05:30 [INF] Now listening on: https://localhost:7112
+2024-04-15 21:15:54.115 +05:30 [INF] Now listening on: http://localhost:5216
+2024-04-15 21:15:54.115 +05:30 [DBG] Loaded hosting startup assembly API_02
+2024-04-15 21:15:54.115 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-15 21:15:54.115 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-15 21:15:54.115 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-15 21:15:54.250 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-15 21:15:54.250 +05:30 [INF] Hosting environment: Development
+2024-04-15 21:15:54.250 +05:30 [INF] Content root path: C:\Users\Asad Ansari\source\repos\API_02\API_02
+2024-04-15 21:15:54.251 +05:30 [DBG] Hosting started
+2024-04-15 21:15:54.672 +05:30 [DBG] Connection id "0HN2TCCHCO33N" accepted.
+2024-04-15 21:15:54.676 +05:30 [DBG] Connection id "0HN2TCCHCO33N" received FIN.
+2024-04-15 21:15:54.677 +05:30 [DBG] Connection id "0HN2TCCHCO33N" started.
+2024-04-15 21:15:54.678 +05:30 [DBG] Connection id "0HN2TCCHCO33O" received FIN.
+2024-04-15 21:15:54.679 +05:30 [DBG] Connection id "0HN2TCCHCO33O" accepted.
+2024-04-15 21:15:54.679 +05:30 [DBG] Connection id "0HN2TCCHCO33O" started.
+2024-04-15 21:15:54.749 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-15 21:15:54.749 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-15 21:15:54.820 +05:30 [DBG] Connection id "0HN2TCCHCO33N" stopped.
+2024-04-15 21:15:54.820 +05:30 [DBG] Connection id "0HN2TCCHCO33O" stopped.
+2024-04-15 21:15:54.827 +05:30 [DBG] Connection id "0HN2TCCHCO33O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:15:54.827 +05:30 [DBG] Connection id "0HN2TCCHCO33N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:15:54.910 +05:30 [DBG] Connection id "0HN2TCCHCO33P" accepted.
+2024-04-15 21:15:54.911 +05:30 [DBG] Connection id "0HN2TCCHCO33P" started.
+2024-04-15 21:15:55.124 +05:30 [DBG] Connection 0HN2TCCHCO33P established using the following protocol: "Tls12"
+2024-04-15 21:15:55.314 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - null null
+2024-04-15 21:15:55.622 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-15 21:15:55.662 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-15 21:15:55.663 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:15:55.860 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-15 21:15:55.863 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-15 21:15:55.921 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-15 21:15:55.922 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-15 21:15:56.066 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-15 21:15:56.078 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - null null
+2024-04-15 21:15:56.091 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 24.1003ms
+2024-04-15 21:15:56.136 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 null text/html;charset=utf-8 624.346ms
+2024-04-15 21:15:56.221 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 null text/javascript; charset=UTF-8 142.8198ms
+2024-04-15 21:15:56.560 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - null null
+2024-04-15 21:15:56.560 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-15 21:15:56.562 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:15:56.925 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 365.2958ms
+2024-04-15 21:16:04.505 +05:30 [DBG] Connection id "0HN2TCCHCO33P" received FIN.
+2024-04-15 21:16:04.511 +05:30 [DBG] The connection queue processing loop for 0HN2TCCHCO33P completed.
+2024-04-15 21:16:04.519 +05:30 [DBG] Connection id "0HN2TCCHCO33P" is closed. The last processed stream ID was 7.
+2024-04-15 21:16:04.519 +05:30 [DBG] Connection id "0HN2TCCHCO33P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:16:04.534 +05:30 [DBG] Connection id "0HN2TCCHCO33P" stopped.
+2024-04-15 21:16:16.957 +05:30 [DBG] Connection id "0HN2TCCHCO33Q" accepted.
+2024-04-15 21:16:16.958 +05:30 [DBG] Connection id "0HN2TCCHCO33Q" started.
+2024-04-15 21:16:16.965 +05:30 [DBG] Connection 0HN2TCCHCO33Q established using the following protocol: "Tls12"
+2024-04-15 21:16:16.967 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/api/Students - null null
+2024-04-15 21:16:16.974 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2024-04-15 21:16:16.979 +05:30 [DBG] Endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2024-04-15 21:16:16.980 +05:30 [DBG] Request matched endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:16:16.985 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-15 21:16:16.988 +05:30 [INF] Executing endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:16:17.054 +05:30 [INF] Route matched with {action = "GetAllStudent", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[API_02.Models.API.ApiResponce] GetAllStudent() on controller API_02.Controllers.StudentsController (API_02).
+2024-04-15 21:16:17.057 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-15 21:16:17.057 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-15 21:16:17.058 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-15 21:16:17.058 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-15 21:16:17.058 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-15 21:16:17.063 +05:30 [DBG] Executing controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:16:17.580 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-15 21:16:17.638 +05:30 [DBG] Executed controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:16:19.508 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-15 21:16:19.521 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-15 21:16:19.524 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-15 21:16:19.527 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-15 21:16:19.527 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-15 21:16:19.528 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-15 21:16:19.531 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-15 21:16:19.532 +05:30 [INF] Executing ObjectResult, writing value of type 'API_02.Models.API.ApiResponce'.
+2024-04-15 21:16:20.026 +05:30 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .Select(s => new DtoStudent{ 
+        Id = s.Id, 
+        Name = s.Name, 
+        Division = s.Division, 
+        Standard = s.Standard 
+    }
+    )'
+2024-04-15 21:16:20.690 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<DtoStudent>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            Id -> 0
+            Name -> 1
+            Division -> 2
+            Standard -> 3
+        SELECT s.Id, s.Name, s.Division, s.Standard
+        FROM Students AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, DtoStudent>, 
+    API_02.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-15 21:16:20.777 +05:30 [DBG] Creating DbConnection.
+2024-04-15 21:16:20.845 +05:30 [DBG] Created DbConnection. (64ms).
+2024-04-15 21:16:20.852 +05:30 [DBG] Opening connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:16:21.770 +05:30 [DBG] Opened connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:16:21.777 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-15 21:16:21.788 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (10ms).
+2024-04-15 21:16:21.793 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (16ms).
+2024-04-15 21:16:21.812 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:16:21.929 +05:30 [INF] Executed DbCommand (116ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:16:22.000 +05:30 [DBG] Closing data reader to 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:16:22.016 +05:30 [DBG] A data reader for 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' is being disposed after spending 75ms reading results.
+2024-04-15 21:16:22.022 +05:30 [DBG] Closing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:16:22.039 +05:30 [DBG] Closed connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' (16ms).
+2024-04-15 21:16:22.065 +05:30 [INF] Executed action API_02.Controllers.StudentsController.GetAllStudent (API_02) in 4998.3101ms
+2024-04-15 21:16:22.065 +05:30 [INF] Executed endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:16:22.070 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-04-15 21:16:22.079 +05:30 [DBG] Disposing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:16:22.083 +05:30 [DBG] Disposed connection to database '' on server '' (3ms).
+2024-04-15 21:16:22.084 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/api/Students - 200 381 application/json; charset=utf-8 5116.7926ms
+2024-04-15 21:16:24.533 +05:30 [DBG] Connection id "0HN2TCCHCO33Q" received FIN.
+2024-04-15 21:16:24.534 +05:30 [DBG] Connection id "0HN2TCCHCO33Q" is closed. The last processed stream ID was 1.
+2024-04-15 21:16:24.534 +05:30 [DBG] Connection id "0HN2TCCHCO33Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:16:24.535 +05:30 [DBG] The connection queue processing loop for 0HN2TCCHCO33Q completed.
+2024-04-15 21:16:24.535 +05:30 [DBG] Connection id "0HN2TCCHCO33Q" stopped.
+2024-04-15 21:20:02.291 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-15 21:20:02.504 +05:30 [DBG] Hosting starting
+2024-04-15 21:20:02.953 +05:30 [INF] Now listening on: https://localhost:7112
+2024-04-15 21:20:02.953 +05:30 [INF] Now listening on: http://localhost:5216
+2024-04-15 21:20:02.953 +05:30 [DBG] Loaded hosting startup assembly API_02
+2024-04-15 21:20:02.953 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-15 21:20:02.953 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-15 21:20:02.953 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-15 21:20:03.096 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-15 21:20:03.097 +05:30 [DBG] Connection id "0HN2TCERDTDAO" accepted.
+2024-04-15 21:20:03.097 +05:30 [DBG] Connection id "0HN2TCERDTDAP" accepted.
+2024-04-15 21:20:03.099 +05:30 [DBG] Connection id "0HN2TCERDTDAP" started.
+2024-04-15 21:20:03.099 +05:30 [DBG] Connection id "0HN2TCERDTDAO" started.
+2024-04-15 21:20:03.100 +05:30 [INF] Hosting environment: Development
+2024-04-15 21:20:03.100 +05:30 [INF] Content root path: C:\Users\Asad Ansari\source\repos\API_02\API_02
+2024-04-15 21:20:03.100 +05:30 [DBG] Hosting started
+2024-04-15 21:20:03.128 +05:30 [DBG] Connection id "0HN2TCERDTDAO" received FIN.
+2024-04-15 21:20:03.128 +05:30 [DBG] Connection id "0HN2TCERDTDAP" received FIN.
+2024-04-15 21:20:03.145 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-15 21:20:03.145 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-15 21:20:03.205 +05:30 [DBG] Connection id "0HN2TCERDTDAP" stopped.
+2024-04-15 21:20:03.205 +05:30 [DBG] Connection id "0HN2TCERDTDAO" stopped.
+2024-04-15 21:20:03.212 +05:30 [DBG] Connection id "0HN2TCERDTDAP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:20:03.216 +05:30 [DBG] Connection id "0HN2TCERDTDAO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:20:03.348 +05:30 [DBG] Connection id "0HN2TCERDTDAQ" accepted.
+2024-04-15 21:20:03.350 +05:30 [DBG] Connection id "0HN2TCERDTDAQ" started.
+2024-04-15 21:20:03.577 +05:30 [DBG] Connection 0HN2TCERDTDAQ established using the following protocol: "Tls12"
+2024-04-15 21:20:03.732 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - null null
+2024-04-15 21:20:03.963 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-15 21:20:04.017 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-15 21:20:04.018 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:20:04.198 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-15 21:20:04.200 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-15 21:20:04.266 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-15 21:20:04.268 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-15 21:20:04.273 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 null text/html;charset=utf-8 551.6695ms
+2024-04-15 21:20:04.381 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-15 21:20:04.412 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - null null
+2024-04-15 21:20:04.446 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 64.5664ms
+2024-04-15 21:20:04.527 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 null text/javascript; charset=UTF-8 114.7455ms
+2024-04-15 21:20:04.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - null null
+2024-04-15 21:20:04.648 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-15 21:20:04.648 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:20:05.013 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 365.0733ms
+2024-04-15 21:20:09.891 +05:30 [DBG] Connection id "0HN2TCERDTDAQ" received FIN.
+2024-04-15 21:20:09.900 +05:30 [DBG] Connection id "0HN2TCERDTDAQ" is closed. The last processed stream ID was 7.
+2024-04-15 21:20:09.900 +05:30 [DBG] Connection id "0HN2TCERDTDAQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:20:09.904 +05:30 [DBG] The connection queue processing loop for 0HN2TCERDTDAQ completed.
+2024-04-15 21:20:09.906 +05:30 [DBG] Connection id "0HN2TCERDTDAQ" stopped.
+2024-04-15 21:20:23.247 +05:30 [DBG] Connection id "0HN2TCERDTDAR" accepted.
+2024-04-15 21:20:23.248 +05:30 [DBG] Connection id "0HN2TCERDTDAR" started.
+2024-04-15 21:20:23.279 +05:30 [DBG] Connection 0HN2TCERDTDAR established using the following protocol: "Tls12"
+2024-04-15 21:20:23.282 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/api/Students - null null
+2024-04-15 21:20:23.293 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2024-04-15 21:20:23.298 +05:30 [DBG] Endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2024-04-15 21:20:23.299 +05:30 [DBG] Request matched endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:20:23.308 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-15 21:20:23.312 +05:30 [INF] Executing endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:20:23.363 +05:30 [INF] Route matched with {action = "GetAllStudent", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[API_02.Models.API.ApiResponce] GetAllStudent() on controller API_02.Controllers.StudentsController (API_02).
+2024-04-15 21:20:23.367 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-15 21:20:23.368 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-15 21:20:23.369 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-15 21:20:23.369 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-15 21:20:23.370 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-15 21:20:23.372 +05:30 [DBG] Executing controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:20:23.655 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-15 21:20:23.688 +05:30 [DBG] Executed controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:20:24.826 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-15 21:20:24.833 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-15 21:20:24.838 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-15 21:20:24.840 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-15 21:20:24.840 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-15 21:20:24.840 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-15 21:20:24.842 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-15 21:20:24.842 +05:30 [INF] Executing ObjectResult, writing value of type 'API_02.Models.API.ApiResponce'.
+2024-04-15 21:20:25.190 +05:30 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .Select(s => new DtoStudent{ 
+        Id = s.Id, 
+        Name = s.Name, 
+        Division = s.Division, 
+        Standard = s.Standard 
+    }
+    )'
+2024-04-15 21:20:25.676 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<DtoStudent>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            Id -> 0
+            Name -> 1
+            Division -> 2
+            Standard -> 3
+        SELECT s.Id, s.Name, s.Division, s.Standard
+        FROM Students AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, DtoStudent>, 
+    API_02.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-15 21:20:25.719 +05:30 [DBG] Creating DbConnection.
+2024-04-15 21:20:25.747 +05:30 [DBG] Created DbConnection. (27ms).
+2024-04-15 21:20:25.750 +05:30 [DBG] Opening connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:20:26.259 +05:30 [DBG] Opened connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:20:26.264 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-15 21:20:26.273 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (8ms).
+2024-04-15 21:20:26.276 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2024-04-15 21:20:26.291 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:20:26.376 +05:30 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:20:26.435 +05:30 [DBG] Closing data reader to 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:20:26.449 +05:30 [DBG] A data reader for 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' is being disposed after spending 62ms reading results.
+2024-04-15 21:20:26.455 +05:30 [DBG] Closing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:20:26.468 +05:30 [DBG] Closed connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' (12ms).
+2024-04-15 21:20:26.491 +05:30 [INF] Executed action API_02.Controllers.StudentsController.GetAllStudent (API_02) in 3112.906ms
+2024-04-15 21:20:26.491 +05:30 [INF] Executed endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:20:26.496 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-04-15 21:20:26.508 +05:30 [DBG] Disposing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:20:26.512 +05:30 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-04-15 21:20:26.513 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/api/Students - 200 381 application/json; charset=utf-8 3231.3951ms
+2024-04-15 21:20:29.921 +05:30 [DBG] Connection id "0HN2TCERDTDAR" received FIN.
+2024-04-15 21:20:29.921 +05:30 [DBG] Connection id "0HN2TCERDTDAR" is closed. The last processed stream ID was 1.
+2024-04-15 21:20:29.922 +05:30 [DBG] Connection id "0HN2TCERDTDAR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:20:29.922 +05:30 [DBG] The connection queue processing loop for 0HN2TCERDTDAR completed.
+2024-04-15 21:20:29.923 +05:30 [DBG] Connection id "0HN2TCERDTDAR" stopped.
+2024-04-15 21:24:34.389 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-15 21:24:34.585 +05:30 [DBG] Hosting starting
+2024-04-15 21:24:35.029 +05:30 [INF] Now listening on: https://localhost:7112
+2024-04-15 21:24:35.029 +05:30 [INF] Now listening on: http://localhost:5216
+2024-04-15 21:24:35.029 +05:30 [DBG] Loaded hosting startup assembly API_02
+2024-04-15 21:24:35.029 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-15 21:24:35.029 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-15 21:24:35.030 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-15 21:24:35.162 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-15 21:24:35.163 +05:30 [INF] Hosting environment: Development
+2024-04-15 21:24:35.163 +05:30 [INF] Content root path: C:\Users\Asad Ansari\source\repos\API_02\API_02
+2024-04-15 21:24:35.163 +05:30 [DBG] Hosting started
+2024-04-15 21:24:35.214 +05:30 [DBG] Connection id "0HN2TCHCH11CR" received FIN.
+2024-04-15 21:24:35.223 +05:30 [DBG] Connection id "0HN2TCHCH11CR" accepted.
+2024-04-15 21:24:35.224 +05:30 [DBG] Connection id "0HN2TCHCH11CR" started.
+2024-04-15 21:24:35.257 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-15 21:24:35.320 +05:30 [DBG] Connection id "0HN2TCHCH11CR" stopped.
+2024-04-15 21:24:35.328 +05:30 [DBG] Connection id "0HN2TCHCH11CR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:24:35.577 +05:30 [DBG] Connection id "0HN2TCHCH11CS" accepted.
+2024-04-15 21:24:35.578 +05:30 [DBG] Connection id "0HN2TCHCH11CS" started.
+2024-04-15 21:24:35.777 +05:30 [DBG] Connection 0HN2TCHCH11CS established using the following protocol: "Tls12"
+2024-04-15 21:24:35.937 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - null null
+2024-04-15 21:24:36.213 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-15 21:24:36.256 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-15 21:24:36.257 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:24:36.435 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-15 21:24:36.438 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-15 21:24:36.552 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-15 21:24:36.556 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-15 21:24:36.575 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 null text/html;charset=utf-8 641.5386ms
+2024-04-15 21:24:36.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-15 21:24:36.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - null null
+2024-04-15 21:24:36.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 17.9173ms
+2024-04-15 21:24:36.780 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 null text/javascript; charset=UTF-8 116.7728ms
+2024-04-15 21:24:37.041 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - null null
+2024-04-15 21:24:37.042 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-15 21:24:37.042 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:24:37.345 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 304.7951ms
+2024-04-15 21:24:40.354 +05:30 [DBG] Connection id "0HN2TCHCH11CS" received FIN.
+2024-04-15 21:24:40.361 +05:30 [DBG] The connection queue processing loop for 0HN2TCHCH11CS completed.
+2024-04-15 21:24:40.366 +05:30 [DBG] Connection id "0HN2TCHCH11CS" is closed. The last processed stream ID was 7.
+2024-04-15 21:24:40.366 +05:30 [DBG] Connection id "0HN2TCHCH11CS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:24:40.368 +05:30 [DBG] Connection id "0HN2TCHCH11CS" stopped.
+2024-04-15 21:24:44.490 +05:30 [DBG] Connection id "0HN2TCHCH11CT" accepted.
+2024-04-15 21:24:44.491 +05:30 [DBG] Connection id "0HN2TCHCH11CT" started.
+2024-04-15 21:24:44.515 +05:30 [DBG] Connection 0HN2TCHCH11CT established using the following protocol: "Tls12"
+2024-04-15 21:24:44.520 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/api/Students - null null
+2024-04-15 21:24:44.531 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2024-04-15 21:24:44.536 +05:30 [DBG] Endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2024-04-15 21:24:44.538 +05:30 [DBG] Request matched endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:24:44.546 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-15 21:24:44.553 +05:30 [INF] Executing endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:24:44.603 +05:30 [INF] Route matched with {action = "GetAllStudent", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[API_02.Models.API.ApiResponce] GetAllStudent() on controller API_02.Controllers.StudentsController (API_02).
+2024-04-15 21:24:44.606 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-15 21:24:44.607 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-15 21:24:44.607 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-15 21:24:44.608 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-15 21:24:44.609 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-15 21:24:44.612 +05:30 [DBG] Executing controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:24:44.870 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-15 21:24:44.915 +05:30 [DBG] Executed controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:24:46.227 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-15 21:24:46.234 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-15 21:24:46.238 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-15 21:24:46.241 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-15 21:24:46.242 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-15 21:24:46.242 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-15 21:24:46.243 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-15 21:24:46.244 +05:30 [INF] Executing ObjectResult, writing value of type 'API_02.Models.API.ApiResponce'.
+2024-04-15 21:24:46.523 +05:30 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .Select(s => new DtoStudent{ 
+        Id = s.Id, 
+        Name = s.Name, 
+        Division = s.Division, 
+        Standard = s.Standard 
+    }
+    )'
+2024-04-15 21:24:47.021 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<DtoStudent>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            Id -> 0
+            Name -> 1
+            Division -> 2
+            Standard -> 3
+        SELECT s.Id, s.Name, s.Division, s.Standard
+        FROM Students AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, DtoStudent>, 
+    API_02.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-15 21:24:47.080 +05:30 [DBG] Creating DbConnection.
+2024-04-15 21:24:47.135 +05:30 [DBG] Created DbConnection. (49ms).
+2024-04-15 21:24:47.140 +05:30 [DBG] Opening connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:24:47.702 +05:30 [DBG] Opened connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:24:47.709 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-15 21:24:47.717 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (8ms).
+2024-04-15 21:24:47.721 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2024-04-15 21:24:47.754 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:24:47.860 +05:30 [INF] Executed DbCommand (122ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:24:47.909 +05:30 [DBG] Closing data reader to 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:24:47.917 +05:30 [DBG] A data reader for 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' is being disposed after spending 50ms reading results.
+2024-04-15 21:24:47.919 +05:30 [DBG] Closing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:24:47.926 +05:30 [DBG] Closed connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' (7ms).
+2024-04-15 21:24:47.941 +05:30 [INF] Executed action API_02.Controllers.StudentsController.GetAllStudent (API_02) in 3326.225ms
+2024-04-15 21:24:47.941 +05:30 [INF] Executed endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:24:47.945 +05:30 [INF] HTTP GET /api/Students responded 200 in 3394.0981 ms
+2024-04-15 21:24:47.950 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-04-15 21:24:47.959 +05:30 [DBG] Disposing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:24:47.963 +05:30 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-04-15 21:24:47.964 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/api/Students - 200 381 application/json; charset=utf-8 3446.266ms
+2024-04-15 21:24:50.370 +05:30 [DBG] Connection id "0HN2TCHCH11CT" received FIN.
+2024-04-15 21:24:50.371 +05:30 [DBG] Connection id "0HN2TCHCH11CT" is closed. The last processed stream ID was 1.
+2024-04-15 21:24:50.371 +05:30 [DBG] Connection id "0HN2TCHCH11CT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:24:50.373 +05:30 [DBG] The connection queue processing loop for 0HN2TCHCH11CT completed.
+2024-04-15 21:24:50.373 +05:30 [DBG] Connection id "0HN2TCHCH11CT" stopped.
+2024-04-15 21:28:21.489 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-15 21:28:21.682 +05:30 [DBG] Hosting starting
+2024-04-15 21:28:22.114 +05:30 [INF] Now listening on: https://localhost:7112
+2024-04-15 21:28:22.114 +05:30 [INF] Now listening on: http://localhost:5216
+2024-04-15 21:28:22.114 +05:30 [DBG] Loaded hosting startup assembly API_02
+2024-04-15 21:28:22.114 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-15 21:28:22.114 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-15 21:28:22.115 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-15 21:28:22.269 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-15 21:28:22.271 +05:30 [INF] Hosting environment: Development
+2024-04-15 21:28:22.271 +05:30 [INF] Content root path: C:\Users\Asad Ansari\source\repos\API_02\API_02
+2024-04-15 21:28:22.271 +05:30 [DBG] Hosting started
+2024-04-15 21:28:22.340 +05:30 [DBG] Connection id "0HN2TCJG7294R" accepted.
+2024-04-15 21:28:22.343 +05:30 [DBG] Connection id "0HN2TCJG7294R" started.
+2024-04-15 21:28:22.343 +05:30 [DBG] Connection id "0HN2TCJG7294R" received FIN.
+2024-04-15 21:28:22.383 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-15 21:28:22.471 +05:30 [DBG] Connection id "0HN2TCJG7294R" stopped.
+2024-04-15 21:28:22.483 +05:30 [DBG] Connection id "0HN2TCJG7294R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 21:28:22.605 +05:30 [DBG] Connection id "0HN2TCJG7294S" accepted.
+2024-04-15 21:28:22.606 +05:30 [DBG] Connection id "0HN2TCJG7294S" started.
+2024-04-15 21:28:22.786 +05:30 [DBG] Connection 0HN2TCJG7294S established using the following protocol: "Tls12"
+2024-04-15 21:28:22.969 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - null null
+2024-04-15 21:28:23.186 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-15 21:28:23.236 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-15 21:28:23.236 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:28:23.431 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-15 21:28:23.434 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-15 21:28:23.578 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-15 21:28:23.579 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-15 21:28:23.584 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 null text/html;charset=utf-8 625.3441ms
+2024-04-15 21:28:23.679 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - null null
+2024-04-15 21:28:23.679 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-15 21:28:23.697 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 18.0874ms
+2024-04-15 21:28:23.798 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 null text/javascript; charset=UTF-8 118.8401ms
+2024-04-15 21:28:23.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - null null
+2024-04-15 21:28:23.926 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-15 21:28:23.926 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 21:28:24.261 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 336.0686ms
+2024-04-15 21:28:32.860 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/api/Students - null null
+2024-04-15 21:28:32.866 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2024-04-15 21:28:32.871 +05:30 [DBG] Endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2024-04-15 21:28:32.872 +05:30 [DBG] Request matched endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:28:32.879 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-15 21:28:32.884 +05:30 [INF] Executing endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:28:32.914 +05:30 [INF] Route matched with {action = "GetAllStudent", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[API_02.Models.API.ApiResponce] GetAllStudent() on controller API_02.Controllers.StudentsController (API_02).
+2024-04-15 21:28:32.916 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-15 21:28:32.916 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-15 21:28:32.917 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-15 21:28:32.917 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-15 21:28:32.917 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-15 21:28:32.920 +05:30 [DBG] Executing controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:28:33.091 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-15 21:28:33.115 +05:30 [DBG] Executed controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:28:33.832 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-15 21:28:33.839 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-15 21:28:33.842 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-15 21:28:33.843 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-15 21:28:33.843 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-15 21:28:33.843 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-15 21:28:33.844 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-15 21:28:33.844 +05:30 [INF] Executing ObjectResult, writing value of type 'API_02.Models.API.ApiResponce'.
+2024-04-15 21:28:34.049 +05:30 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .Select(s => new DtoStudent{ 
+        Id = s.Id, 
+        Name = s.Name, 
+        Division = s.Division, 
+        Standard = s.Standard 
+    }
+    )'
+2024-04-15 21:28:34.318 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<DtoStudent>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            Id -> 0
+            Name -> 1
+            Division -> 2
+            Standard -> 3
+        SELECT s.Id, s.Name, s.Division, s.Standard
+        FROM Students AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, DtoStudent>, 
+    API_02.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-15 21:28:34.353 +05:30 [DBG] Creating DbConnection.
+2024-04-15 21:28:34.380 +05:30 [DBG] Created DbConnection. (25ms).
+2024-04-15 21:28:34.382 +05:30 [DBG] Opening connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:28:34.768 +05:30 [DBG] Opened connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:28:34.771 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-15 21:28:34.779 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-04-15 21:28:34.781 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (10ms).
+2024-04-15 21:28:34.789 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:28:34.837 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Division], [s].[Standard]
+FROM [Students] AS [s]
+2024-04-15 21:28:34.870 +05:30 [DBG] Closing data reader to 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:28:34.878 +05:30 [DBG] A data reader for 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' is being disposed after spending 35ms reading results.
+2024-04-15 21:28:34.880 +05:30 [DBG] Closing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:28:34.890 +05:30 [DBG] Closed connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' (8ms).
+2024-04-15 21:28:34.908 +05:30 [INF] Executed action API_02.Controllers.StudentsController.GetAllStudent (API_02) in 1983.8225ms
+2024-04-15 21:28:34.908 +05:30 [INF] Executed endpoint 'API_02.Controllers.StudentsController.GetAllStudent (API_02)'
+2024-04-15 21:28:34.911 +05:30 [INF] HTTP GET /api/Students responded 200 in 2028.0104 ms
+2024-04-15 21:28:34.915 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-04-15 21:28:34.924 +05:30 [DBG] Disposing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:28:34.927 +05:30 [DBG] Disposed connection to database '' on server '' (3ms).
+2024-04-15 21:28:34.928 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/api/Students - 200 381 application/json; charset=utf-8 2068.0749ms
+2024-04-15 21:29:05.631 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/api/Students/6 - null null
+2024-04-15 21:29:05.640 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Students/6'
+2024-04-15 21:29:05.641 +05:30 [DBG] Endpoint 'API_02.Controllers.StudentsController.GetById (API_02)' with route pattern 'api/Students/{id:int}' is valid for the request path '/api/Students/6'
+2024-04-15 21:29:05.641 +05:30 [DBG] Request matched endpoint 'API_02.Controllers.StudentsController.GetById (API_02)'
+2024-04-15 21:29:05.641 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-15 21:29:05.642 +05:30 [INF] Executing endpoint 'API_02.Controllers.StudentsController.GetById (API_02)'
+2024-04-15 21:29:05.669 +05:30 [INF] Route matched with {action = "GetById", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[API_02.Models.API.ApiResponce] GetById(Int32) on controller API_02.Controllers.StudentsController (API_02).
+2024-04-15 21:29:05.669 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-15 21:29:05.669 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-15 21:29:05.670 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-15 21:29:05.670 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-15 21:29:05.670 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-15 21:29:05.670 +05:30 [DBG] Executing controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:29:05.671 +05:30 [DBG] Executed controller factory for controller API_02.Controllers.StudentsController (API_02)
+2024-04-15 21:29:05.680 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-15 21:29:05.683 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-15 21:29:05.684 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-15 21:29:05.684 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-15 21:29:05.684 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-15 21:29:05.687 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-15 21:29:05.724 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-15 21:29:05.769 +05:30 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+2024-04-15 21:29:05.947 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Student>(
+    asyncEnumerable: new SingleQueryingEnumerable<Student>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Student.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Student.Division (char) Required, 1], [Property: Student.IsActive (bool) Required, 2], [Property: Student.Name (string) Required, 3], [Property: Student.Standard (string) Required, 4] }
+            SELECT TOP(1) s.Id, s.Division, s.IsActive, s.Name, s.Standard
+            FROM Students AS s
+            WHERE s.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Student>, 
+        API_02.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-04-15 21:29:05.981 +05:30 [DBG] Creating DbConnection.
+2024-04-15 21:29:05.982 +05:30 [DBG] Created DbConnection. (0ms).
+2024-04-15 21:29:05.984 +05:30 [DBG] Opening connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:29:05.988 +05:30 [DBG] Opened connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:29:05.988 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-15 21:29:05.988 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-04-15 21:29:05.993 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-04-15 21:29:05.999 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Division], [s].[IsActive], [s].[Name], [s].[Standard]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__p_0
+2024-04-15 21:29:06.066 +05:30 [INF] Executed DbCommand (72ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Division], [s].[IsActive], [s].[Name], [s].[Standard]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__p_0
+2024-04-15 21:29:06.120 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-15 21:29:06.150 +05:30 [DBG] Closing data reader to 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:29:06.151 +05:30 [DBG] A data reader for 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' is being disposed after spending 84ms reading results.
+2024-04-15 21:29:06.153 +05:30 [DBG] Closing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:29:06.153 +05:30 [DBG] Closed connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03' (0ms).
+2024-04-15 21:29:06.154 +05:30 [WRN] Get By Id student data has been executed successfully
+2024-04-15 21:29:06.159 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-15 21:29:06.159 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-15 21:29:06.160 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-15 21:29:06.160 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-15 21:29:06.160 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-15 21:29:06.160 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-15 21:29:06.160 +05:30 [INF] Executing ObjectResult, writing value of type 'API_02.Models.API.ApiResponce'.
+2024-04-15 21:29:06.163 +05:30 [INF] Executed action API_02.Controllers.StudentsController.GetById (API_02) in 493.5359ms
+2024-04-15 21:29:06.166 +05:30 [INF] Executed endpoint 'API_02.Controllers.StudentsController.GetById (API_02)'
+2024-04-15 21:29:06.167 +05:30 [INF] HTTP GET /api/Students/6 responded 200 in 525.9456 ms
+2024-04-15 21:29:06.168 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-04-15 21:29:06.168 +05:30 [DBG] Disposing connection to database 'API_02' on server 'DESKTOP-8RLIEE0\SQLEXPRESS03'.
+2024-04-15 21:29:06.168 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-04-15 21:29:06.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/api/Students/6 - 200 127 application/json; charset=utf-8 538.9309ms
+2024-04-15 22:00:05.719 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-15 22:00:05.984 +05:30 [DBG] Hosting starting
+2024-04-15 22:00:07.166 +05:30 [DBG] Connection id "0HN2TD57SSVST" received FIN.
+2024-04-15 22:00:07.179 +05:30 [DBG] Connection id "0HN2TD57SSVST" accepted.
+2024-04-15 22:00:07.181 +05:30 [DBG] Connection id "0HN2TD57SSVST" started.
+2024-04-15 22:00:07.210 +05:30 [INF] Now listening on: https://localhost:7112
+2024-04-15 22:00:07.210 +05:30 [INF] Now listening on: http://localhost:5216
+2024-04-15 22:00:07.210 +05:30 [DBG] Loaded hosting startup assembly API_02
+2024-04-15 22:00:07.211 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-15 22:00:07.211 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-15 22:00:07.211 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-15 22:00:07.237 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-15 22:00:07.653 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-15 22:00:07.492 +05:30 [DBG] Connection id "0HN2TD57SSVSU" accepted.
+2024-04-15 22:00:07.792 +05:30 [DBG] Connection id "0HN2TD57SSVSU" started.
+2024-04-15 22:00:07.792 +05:30 [INF] Hosting environment: Development
+2024-04-15 22:00:07.792 +05:30 [INF] Content root path: C:\Users\Asad Ansari\source\repos\API_02\API_02
+2024-04-15 22:00:07.793 +05:30 [DBG] Hosting started
+2024-04-15 22:00:07.798 +05:30 [DBG] Connection id "0HN2TD57SSVST" stopped.
+2024-04-15 22:00:07.807 +05:30 [DBG] Connection id "0HN2TD57SSVST" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-15 22:00:07.871 +05:30 [DBG] Connection 0HN2TD57SSVSU established using the following protocol: "Tls12"
+2024-04-15 22:00:08.154 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - null null
+2024-04-15 22:00:08.502 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-15 22:00:08.562 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-15 22:00:08.564 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 22:00:08.804 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-15 22:00:08.809 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-15 22:00:08.929 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-15 22:00:08.929 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-15 22:00:08.932 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - null null
+2024-04-15 22:00:08.942 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 null text/html;charset=utf-8 798.6353ms
+2024-04-15 22:00:08.944 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-15 22:00:08.969 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 26.1126ms
+2024-04-15 22:00:09.035 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.8658ms
+2024-04-15 22:00:09.174 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - null null
+2024-04-15 22:00:09.174 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-15 22:00:09.174 +05:30 [DBG] Request did not match any endpoints
+2024-04-15 22:00:09.440 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 265.9506ms
